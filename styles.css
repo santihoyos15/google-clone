@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     color: rgba(0,0,0,0.87);
+    font-family: arial, sans-serif;
 }
 
 html{
@@ -9,13 +10,13 @@ html{
     background-color: #ffff;
 }
 
+/*** Header ***/
 .upper-header{
     height: 6.0rem;
     padding: 0.6rem;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-family: arial, sans-serif;
     font-size: 1.3rem;
 }
 
@@ -48,4 +49,48 @@ html{
 .profile > img {
     padding: 0.8rem;
     border-radius: 10rem;
+}
+
+/*** Main Area ***/
+
+
+/*** Footer ***/
+footer{
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer *{
+    color: #70757a;
+    display: flex;
+}
+
+.country{
+    height: 4.8rem;
+    border-bottom:0.1rem solid #dadce0;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+}
+
+.lower-navbar{
+    height: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arial, sans-serif;
+    font-size: 1.4rem;
+    padding: 0rem 2.0rem;
+}
+
+.lower-navbar a{
+    padding: 15px;
+    text-decoration: none;
+}
+
+.lower-navbar a:hover{
+    text-decoration: underline;
 }
