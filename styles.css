@@ -64,13 +64,13 @@ a {
 main{
     width: 100vw;
     position: relative;
-    top: 2.7rem;
+    top: 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }main *{
-    margin: 0.8rem;
+    margin: 0.9rem;
 }
 
 .search-box {
@@ -82,6 +82,17 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.button-section{
+    display: flex;
+}.button-section *{
+    color: #3c4043;
+    font-size: 1.4rem;
+    background-color: #f8f9fa;
+    height: 3.4rem;
+    padding: 0rem 1.6rem;
+    border: 0.1rem solid #f8f9fa;
+    border-radius: 0.4rem;
 }
 
 /*** Footer ***/
