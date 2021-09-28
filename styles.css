@@ -64,13 +64,25 @@ a {
 main{
     width: 100vw;
     position: relative;
-    top: 4.3rem;
+    top: 2.7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}main *{
+    margin: 0.8rem;
 }
 
+.search-box {
+    width: 80%;
+    height: 4.6rem;
+    max-width: 58.4rem;
+    border: 0.1rem solid #dfe1e5;
+    border-radius: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 /*** Footer ***/
 footer{
