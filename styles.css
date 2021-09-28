@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     color: rgba(0,0,0,0.87);
     font-family: arial, sans-serif;
@@ -8,6 +9,15 @@
 html{
     font-size: 62.5%;
     background-color: #ffff;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*** Header ***/
@@ -29,20 +39,19 @@ html{
 
 .gmail{
     padding: 0rem 0rem 0rem 1.5rem;
-    text-decoration: none;
 }.gmail:hover{
     text-decoration: underline;
 }
 
 .images{
     padding: 0rem 1.5rem 0rem 1.5rem;
-    text-decoration: none;
 }.images:hover{
     text-decoration: underline;
 }
 
 .apps{
     padding: 1.2rem;
+    height: 4.8rem;
     text-decoration: none;
 }
 
@@ -52,6 +61,15 @@ html{
 }
 
 /*** Main Area ***/
+main{
+    width: 100vw;
+    position: relative;
+    top: 4.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /*** Footer ***/
@@ -88,7 +106,6 @@ footer *{
 
 .lower-navbar a{
     padding: 15px;
-    text-decoration: none;
 }
 
 .lower-navbar a:hover{
