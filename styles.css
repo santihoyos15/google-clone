@@ -106,6 +106,9 @@ main{
     border: 0.1rem solid #f8f9fa;
     border-radius: 0.4rem;
 }
+.button-section button:hover{
+    box-shadow: 0rem 0.11rem 0.1rem 0.2rem #dfe1e5; 
+}
 
 /*** Footer ***/
 footer{
