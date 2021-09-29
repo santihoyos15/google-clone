@@ -82,7 +82,19 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}.search-box input{
+    border: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 16px;
+}.search-box:hover{
+    box-shadow: 0rem 0.11rem 0.1rem 0.2rem #dfe1e5;
+    border: none;
 }
+
 .button-section{
     display: flex;
 }.button-section *{
