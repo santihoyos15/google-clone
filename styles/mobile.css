@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(0,0,0,0.87);
+    font-family: arial, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #ffff;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*** Header ***/
+.upper-header{
+    height: 6.0rem;
+    padding: 0.6rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.upper-navbar{
+    display: flex;
+    height: 4.8rem;
+    align-items: center;
+    padding: 0rem 0.4rem 0rem 3.2rem;
+}
+
+.gmail{
+    padding: 0rem 0rem 0rem 1.5rem;
+}.gmail:hover{
+    text-decoration: underline;
+}
+
+.images{
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}.images:hover{
+    text-decoration: underline;
+}
+
+.apps{
+    padding: 1.2rem;
+    height: 4.8rem;
+    text-decoration: none;
+}
+
+.profile > img {
+    padding: 0.8rem;
+    border-radius: 10rem;
+}
+
+/*** Main Area ***/
+main{
+    width: 100vw;
+    position: relative;
+    top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}main *{
+    margin: 0.9rem;
+}
+
+.search-box {
+    width: 80%;
+    height: 4.6rem;
+    max-width: 58.4rem;
+    border: 0.1rem solid #dfe1e5;
+    border-radius: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.search-box input{
+    border: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 16px;
+}.search-box:hover{
+    box-shadow: 0rem 0.11rem 0.1rem 0.2rem #dfe1e5;
+    border: none;
+}
+
+.button-section{
+    display: flex;
+}.button-section *{
+    color: #3c4043;
+    font-size: 1.4rem;
+    background-color: #f8f9fa;
+    height: 3.4rem;
+    padding: 0rem 1.6rem;
+    border: 0.1rem solid #f8f9fa;
+    border-radius: 0.4rem;
+}
+.button-section button:hover{
+    box-shadow: 0rem 0.11rem 0.1rem 0.2rem #dfe1e5; 
+}
+
+/*** Footer ***/
+footer{
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer *{
+    color: #70757a;
+    display: flex;
+}
+
+.country{
+    height: 4.8rem;
+    border-bottom:0.1rem solid #dadce0;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+}
+
+.lower-navbar{
+    min-height: 4.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arial, sans-serif;
+    font-size: 1.4rem;
+    padding: 0rem 2.0rem;
+}.lower-navbar div:first-child{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.lower-navbar a{
+    padding: 15px;
+}
+
+.lower-navbar a:hover{
+    text-decoration: underline;
+}
