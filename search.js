@@ -7,6 +7,8 @@ input.addEventListener("keydown", (event) => {
 
 const button = document.getElementById("google-search");
 button.addEventListener("click", (event) => {
-    window.location.href = `https://www.google.com/search?q=${input.value}`;
+    if (input.value){
+        window.location.href = `https://www.google.com/search?q=${input.value}`;
+    }
 })
 
